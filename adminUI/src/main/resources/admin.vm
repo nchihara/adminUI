@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>My Admin</title>
+        <meta name="decorator" content="atl.admin">
+    </head>
+    <body>
+        <form id="admin" class="aui">
+            <div class="field-group">
+                <label for="name">Name :</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="field-group">
+                <label for="age">Age  :</label>
+                <input type="text" id="age" name="age">
+            </div>
+            <div class="field-group">
+                <input type="submit" value="OK" class="button">
+            </div>
+        </form>
+    </body>
+</html>
