@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<atlassian-plugin key="${project.groupId}.${project.artifactId}" name="${project.name}" plugins-version="2">
+  <plugin-info>
+    <description>${project.description}</description>
+    <version>${project.version}</version>
+    <vendor name="${project.organization.name}" url="${project.organization.url}"/>
+    <param name="plugin-icon">images/pluginIcon.png</param>
+    <param name="plugin-logo">images/pluginLogo.png</param>
+  </plugin-info>
+  <!-- add our i18n resource -->
+  <resource type="i18n" name="i18n" location="adminUI"/>
+  <!-- add our web resources -->
+  <web-resource key="adminUI-resources" name="adminUI Web Resources">
+    <dependency>com.atlassian.auiplugin:ajs</dependency>
+    <resource type="download" name="adminUI.css" location="/css/adminUI.css"/>
+    <resource type="download" name="adminUI.js" location="/js/adminUI.js"/>
+    <resource type="download" name="images/" location="/images"/>
+    <context>adminUI</context>
+  </web-resource>
+  <!-- add initial edition -->
+  <servlet name="adminUI" class="com.atlassian.plugins.tutorial.refapp.MyPluginServlet" key="test">
+    <url-pattern>/hello</url-pattern>
+  </servlet>
+  <!--
+    <component-import key="applicationProperties" interface="com.atlassian.sal.api.ApplicationProperties" />
+  -->
+  <!-- perhaps, these component-imports are not needed any more -->
+  <!--
+  <component-import key="templateRenderer" interface="com.atlassian.templaterenderer.TemplateRenderer" filter=""/>
+  <component-import key="userManager" interface="com.atlassian.sal.api.user.UserManger" filter=""/>
+  <component-import key="loginUriProvider" interface="com.atlassian.sal.api.auth.LoginUriProvider" filter=""/>
+  <component-import key="pluginSettingsFactory" interface="com.atlassian.sal.api.pluginsettings.PluginSettingsFactory" filter=""/>
+  -->
+</atlassian-plugin>
