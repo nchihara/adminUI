@@ -1,13 +1,12 @@
-You have successfully created an Atlassian Plugin!
+2016-03-24
+Sample "adminUI"  for Atlassian Plugin SDK tutorial
+	- SDK Version 6.2.3
+	- IDEA Intellij	14
 
-Here are the SDK commands you'll use immediately:
-
-* atlas-run   -- installs this plugin into the product and starts it on localhost
-* atlas-debug -- same as atlas-run, but allows a debugger to attach at port 5005
-* atlas-cli   -- after atlas-run or atlas-debug, opens a Maven command line window:
-                 - 'pi' reinstalls the plugin into the running product instance
-* atlas-help  -- prints description for all commands in the SDK
-
-Full documentation is always available at:
-
-https://developer.atlassian.com/display/DOCS/Introduction+to+the+Atlassian+Plugin+SDK
+	step 0. (done) 	    https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/create-a-plugin-skeleton
+	step 1. (done)      https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/convert-component-to-servlet-module
+	step 2. (done)      https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/run-your-plugin-in-the-container
+		       - success to run JIRA 7.1.2 ( atlas-run --product jira --version 7.1.2)
+	step 3. (done)      https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/control-access-with-sal
+	step 4. (done)      https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/create-a-gui-with-templates-and-aui
+	step 5. (on-going)  https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/store-and-retrieve-plugin-data	
