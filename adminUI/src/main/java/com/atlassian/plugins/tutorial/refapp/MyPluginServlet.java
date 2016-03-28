@@ -90,7 +90,7 @@ public class MyPluginServlet extends HttpServlet
     {
         PluginSettings pluginSettings = pluginSettingsFactory.createGlobalSettings();
 
-        pluginSettings.put(PLUGIN_STORAGE_KEY + ".name",req.getParameter("name") );
+        pluginSettings.put(PLUGIN_STORAGE_KEY + ".name",req.getParameter("name"));
         pluginSettings.put(PLUGIN_STORAGE_KEY + ".age", req.getParameter("age"));
 
         resp.sendRedirect("hello");

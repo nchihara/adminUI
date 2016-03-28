@@ -3,10 +3,10 @@ Sample "adminUI"  for Atlassian Plugin SDK tutorial
 	- SDK Version 6.2.3
 	- IDEA Intellij	14
 
-	step 0. (done) 	    https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/create-a-plugin-skeleton
-	step 1. (done)      https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/convert-component-to-servlet-module
-	step 2. (done)      https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/run-your-plugin-in-the-container
-		       - success to run JIRA 7.1.2 ( atlas-run --product jira --version 7.1.2)
-	step 3. (done)      https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/control-access-with-sal
-	step 4. (done)      https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/create-a-gui-with-templates-and-aui
-	step 5. (on-going)  https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/store-and-retrieve-plugin-data	
+step 0. (done) 	    https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/create-a-plugin-skeleton
+step 1. (done)      https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/convert-component-to-servlet-module
+step 2. (done)      https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/run-your-plugin-in-the-container
+	- success to run JIRA 7.1.2 ( atlas-run --product jira --version 7.1.2)
+step 3. (done)      https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/control-access-with-sal
+step 4. (done)      https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/create-a-gui-with-templates-and-aui
+step 5. (done)      https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/store-and-retrieve-plugin-data	
